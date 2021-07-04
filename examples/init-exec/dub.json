@@ -1,0 +1,16 @@
+{
+	"name": "init-exec",
+	"description": "Skeleton for exactmath library",
+	"authors": [
+		"Wout Huynen"
+	],
+	
+    "copyright": "Copyright © 2019, Wout Huynen",
+	"license": "Boost 1.0",
+	
+    "dependencies": {
+        "exactmath": {
+            "path": "../../"
+        }
+	}
+}

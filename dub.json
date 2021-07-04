@@ -1,0 +1,29 @@
+{
+    "name": "exactmath",
+    "description": "ExactMath Library",
+    "authors": [
+        "Wout Huynen"
+    ],
+    
+    "license": "TODO",
+    "copyright": "Copyright © 2019, Wout Huynen",
+	
+    "subPackages": [
+		"./examples/init-exec"
+	],
+	"dependencies": {
+		"openmethods": "~>1.1.2"
+	},
+    
+    "buildTypes": {
+        "debug": {
+            "targetType": "library",
+            "debugVersions": []
+        },
+        
+        "debug-output": {
+            "targetType": "library",
+            "debugVersions": ["DebugCalc"]
+        }
+    }
+}
